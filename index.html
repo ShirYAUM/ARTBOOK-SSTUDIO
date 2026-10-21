@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ARTBOOK SSTUDIO</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ========== MENÚ Y CARRITO ========== -->
+    <header>
+         <div class="logo">ARTBOOK <span>SSTUDIO</span></div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#Artbooks">Artbooks</a>
+            <button id="boton-carrito">🛒 <span id="contador">0</span></button>
+        </nav>
+
+        <div id="carrito">
+            <h3>Tu carrito</h3>
+            <ul id="lista"></ul>
+            <p class="total">Total: $<span id="total">0</span></p>
+            <button id="vaciar" class="boton">Vaciar carrito</button>
+        </div>
+    </header>
+
+
+    <!-- ========== PORTADA ========== -->
+   <section id="inicio" class="portada">
+        <h1> <span>El arte detrás de cada historia</span></h1>
+        <p>Descubre los libros que revelan cómo nacen los personajes, los mundos y las películas que nos inspiran. Explora concept art, bocetos, ilustraciones y procesos creativos de tus universos favoritos.</p>
+        <a href="#Artbooks" class="boton">Explorar catálogo</a>
+    </section>
+
+
+    <!-- ========== ARTBOOKS ========== -->
+    <section id="Artbooks">
+        <h2>Nuestro <span>catálogo</span></h2>
+
+        <div class="contenedor-tarjetas">
+
+             <!-- Tarjeta 1 -->
+            <div class="tarjeta" data-titulo="Spider-Man: Across the Spider-Verse" data-precio="1309">
+                <img src="img/spider1.jpg" alt="Spider-Man">
+                <h3>Spider-Man: Across the Spider-Verse</h3>
+                <p class="datos">Arte y multiversos</p>
+                <p>Adéntrate en el universo visual de Spider-Man a través de diseños de personajes, bocetos, storyboards y conceptos artísticos que dan vida a sus múltiples dimensiones.</p>
+             <h3><p class="precio">$1309</p></h3> 
+            <button class="agregar">Agregar al carrito</button>
+            </div>
+            
+
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta" data-titulo="La creación y el arte de Arcane" data-precio="1231">
+                <img src="img/arcane2.jpg" alt="Arcane"> 
+                <h3>La creación y el arte de Arcane</h3>
+                <p class="datos">Diseño y animación</p>
+                <p>Descubre cómo se construyeron Piltover y Zaun mediante arte conceptual, diseños de personajes, escenarios y testimonios de los artistas que crearon la serie.</p>
+             <h3><p class="precio">$1231</p></h3> 
+            <button class="agregar">Agregar al carrito</button>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="tarjeta" data-titulo="Teenage Mutant Ninja Turtles" data-precio="1043">
+                <img src="img/Tortugas3.jpg" alt="Tortugas Ninja">
+                <h3>Teenage Mutant Ninja Turtles</h3>
+                <p class="datos">Ilustración y movimiento</p>
+                <p>Explora el estilo espontáneo de la película con bocetos, diseños, escenarios y storyboards que muestran cómo se creó su identidad visual.</p>
+            <h3><p class="precio">$1043</p></h3> 
+            <button class="agregar">Agregar al carrito</button>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="tarjeta" data-titulo="The Art of Ratatouille: A Culinary Journey" data-precio="1117">
+                <img src="img/ratatoille4.jpg" alt="Ratatouille">
+                <h3>The Art of Ratatouille: A Culinary Journey</h3>
+                <p class="datos">Personajes y escenarios</p>
+                <p>Conoce el arte de Pixar descubriendo cómo sus memorables personajes, detallada ambientación y minuciosos elementos visuales construyen paso a paso este fascinante mundo animado.</p>
+             <h3><p class="precio">$1117</p></h3> 
+            <button class="agregar">Agregar al carrito</button>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="tarjeta" data-titulo="The Art of Inside Out: Designing the Secret " data-precio="1170">
+                <img src="img/intensamente5.jpg" alt="Intensamente">
+                <h3>The Art of Inside Out: Designing the Secret</h3>
+                <p class="datos">Color y emociones</p>
+                <p>Descubre cómo el color, la forma y el diseño de personajes ayudan a representar las emociones y a estructurar todo el universo visual de la aclamada película.</p>
+              <h3><p class="precio">$1170</p></h3> 
+            <button class="agregar">Agregar al carrito</button>
+            </div>
+
+                 <!-- Tarjeta 6 -->
+            <div class="tarjeta" data-titulo="The Art ofLove, Death + Robots" data-precio="1109">
+                <img src="img/LD+R6.jpg" alt="love, death + robots">
+                <h3>The Art of Love, Death + Robots</h3>
+                <p class="datos">Arte, ciencia ficción y fantasía</p>
+                <p>Explora el universo visual de la serie mediante detallado concept art, primeros bocetos y variadas técnicas de animación que dan vida a fascinantes e inolvidables historias.</p>
+            <h3><p class="precio">$1109</p></h3> 
+           
+            <button class="agregar">Agregar al carrito</button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>ARTBOOK SSTUDIO © 2026</p>
+    </footer>
+
+</body>
+
+</html>
